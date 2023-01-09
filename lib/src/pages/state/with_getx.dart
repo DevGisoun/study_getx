@@ -15,7 +15,9 @@ class WithGetX extends StatelessWidget {
         // Get.find<CountControllerWithGetX>().increase();
 
         // 상단에서 controller를 불러온 경우
-        _controllerWithGetX.increase(id);
+        // _controllerWithGetX.increase(id);
+
+        _controllerWithGetX.increase();
       },
       child: const Text(
         '+',

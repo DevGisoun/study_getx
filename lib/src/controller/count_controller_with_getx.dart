@@ -1,16 +1,22 @@
-import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
 class CountControllerWithGetX extends GetxController {
-  int count = 0;
+  static CountControllerWithGetX get to => Get.find();
 
-  void increase(String id) {
+  RxInt count = 0.obs;
+
+  // void increase(String id) {
+  //   count++;
+  //   update([id]);
+  // }
+
+  void increase() {
     count++;
-    update([id]);
+    update();
   }
 
   void putNumber(int value) {
-    count = value;
+    count(value);
     update();
   }
 }
