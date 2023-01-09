@@ -14,3 +14,9 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+Study GetX By 개발하는남자
+==========================
+Flutter 프로젝트 진행 이전에 GetX에 대해 숙지하기 위해 실습하는 Repository
+
+> *[강의 링크](https://www.youtube.com/watch?v=RIR8W5kSfNE&list=PLgRxBCVPaZ_3bPtdyE0Tj-w1CFX01bgUE&index=1)*
