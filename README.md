@@ -20,3 +20,6 @@ Study GetX By 개발하는남자
 Flutter 프로젝트 진행 이전에 GetX에 대해 숙지하기 위해 실습하는 Repository
 
 > *[강의 링크](https://www.youtube.com/watch?v=RIR8W5kSfNE&list=PLgRxBCVPaZ_3bPtdyE0Tj-w1CFX01bgUE&index=1)*
+
+<br>
+<b>Chapter #2 ~ #5:<b> Route, Simple State Manage, Reactive State Manage, Dependency Manage, Binding
