@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:study_getx/src/pages/normal/first_page.dart';
+import 'package:study_getx/src/pages/reactive_state_manage_page.dart';
+import 'package:study_getx/src/pages/simple_state_manage_page.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -67,6 +69,22 @@ class Home extends StatelessWidget {
                 );
               },
               child: const Text('동적 URL'),
+            ),
+
+            /// 단순 상태 관리
+            ElevatedButton(
+              onPressed: () {
+                Get.to(const SimpleStateManagePage());
+              },
+              child: const Text('단순 상태 관리'),
+            ),
+
+            /// 반응형 상태 관리
+            ElevatedButton(
+              onPressed: () {
+                Get.to(const ReactiveStateManagePage());
+              },
+              child: const Text('반응형 상태 관리'),
             ),
           ],
         ),
